@@ -1,0 +1,148 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background: linear-gradient(to right, #4776E6, #8E54E9);
+  font-family: 'Segoe UI';
+}
+
+nav{
+  background-color: black;
+  padding: 20px;
+  border-radius: 1em;
+  backdrop-filter: blur(10rem);
+  -webkit-backdrop-filter: blur(10rem);
+} 
+
+
+nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.logo {
+  flex:  10 auto;
+  color: white;
+
+}
+.ruta1 {
+  flex:  1 auto;
+  color: white;
+
+}
+.ruta2 {
+  flex:  1 auto;
+  color: white;
+
+}
+.ruta3 {
+  flex:  1 auto;
+  color: white;
+
+}
+
+.contpremain{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.contPresentacion{
+  display: flex;
+  flex-direction: column;
+}
+
+.nombre{
+  color: white;
+  font-size: 80px;
+  padding-top: 50px;
+  margin-bottom: 0;
+}
+
+.area{
+  color: white;
+  font-size: 40px;
+  margin-top: 0;
+}
+
+.imagen{
+  width: 40%;
+  height: auto;
+  align-self: flex-end;
+  filter: drop-shadow(2px 5px 5px rgba(0,0,0,0.6));
+
+}
+.about{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  border-radius: 1em;
+}
+
+.proyectos{
+  color: white;
+  border-radius: 1em;
+  display: flex;
+  justify-content:space-around;
+
+}
+
+.proyecto1{
+  background: white;
+  color: black;
+  border-radius: 1em;
+  margin-right: 10px;
+  padding: 20px;
+  flex-grow: 1;
+
+}
+.proyecto2{
+  background: white;
+  color: black;
+  border-radius: 1em;
+  margin-left: 10px;
+  padding: 20px;
+  flex-grow: 1;
+}
+.contContacto{
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border-radius: 1em;
+  color: white;
+  padding: 30px;
+  background: black;
+}
+
+input, textarea{
+  margin-top: 5px;
+  border: none;
+  border-bottom: 2px solid #fcf6e6;
+  height: 30px;
+  border-radius: 1em;
+  outline: none;
+}
+
+button{
+  background: #8E54E9;
+  outline: none;
+  border: none;
+  height: 30px;
+  border-radius: 1em;
+  color: white;
+}
+.habilidades{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.card{
+  background: white;
+  border-radius: 1em;
+  margin-right: 20px;
+  padding: 10px;
+}
